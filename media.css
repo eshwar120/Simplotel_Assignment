@@ -1,0 +1,80 @@
+@media screen and (width <=1015px) {
+    .logos-container {
+        position: fixed;
+        /* top: 1px; */
+        flex-direction: column-reverse;
+        bottom: 15px;
+        top: unset;
+    }
+
+    .contact-logo,
+    .cart-logo {
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    .contact-logo:hover,
+    .cart-logo:hover {
+        background-color: gray;
+    }
+
+}
+
+@media screen and (width <= 630px) {
+
+    .nav-bar {
+        justify-content: end;
+    }
+
+    nav label {
+        display: block;
+    }
+
+    ul{
+       font-size: large; 
+       position: absolute;
+       left: -100%;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       background-color: rgb(51, 51, 51, 0.98);
+       gap: 2em;
+       top: 50px;
+       width: 100%;
+       height: calc(100vh - 50px);
+       transition: 0.5s;
+    }
+
+    nav a {
+        color: white;
+    }
+
+    input[type="checkbox"]:checked ~ ul {
+        left: 0;
+    }
+
+    .order-btn{
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+
+    .nav-item::before{
+        background-color: brown;
+    }
+
+}
+
+@media screen and (width <= 440px){
+    .banner-h2{
+    font-size: 30px;
+    }
+
+    .card{
+        width: 250px;
+    }
+
+    .card img{
+        width: 210px ;
+        height: 210px;
+    }
+}
