@@ -1,0 +1,36 @@
+.bg-white{
+    background-color: white;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.pos-absolute{
+    position: absolute;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.pos-sticky{
+    position: sticky;
+    top: 0;
+}
